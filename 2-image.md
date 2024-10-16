@@ -24,12 +24,21 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
+![image](https://github.com/user-attachments/assets/0f0fd60f-e58b-426a-ba60-eab644f3f876)
+
+
 # COMPLETAR
 
 **¿Qué es nginx**
+NGINX, pronunciado en inglés como “engine-ex”, es un famoso software de servidor web de código abierto. En su versión inicial, funcionaba en servidores web HTTP. Sin embargo, hoy en día también sirve como proxy inverso, balanceador de carga HTTP y proxy de correo electrónico para IMAP, POP3 y SMTP.
+
+Este software fue lanzado oficialmente en octubre del 2004. El creador del software, Igor Sysoev, comenzó su proyecto en el 2002 como un intento de solucionar el problema C10k. C10k es el reto de gestionar diez mil conexiones al mismo tiempo.
+
 # COMPLETAR 
 
 Descargar la imagen  **nginx** en la versión **alpine**
+
+
 # COMPLETAR
 
 ### Listar imágenes
