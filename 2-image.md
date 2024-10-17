@@ -4,6 +4,7 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
+Las imágenes y los contenedores de Docker son tecnologías de implementación de aplicaciones. Tradicionalmente, para ejecutar cualquier aplicación en un equipo, era necesario instalar la versión que coincidiera con el sistema operativo de la máquina. Sin embargo, ahora puede crear un solo paquete de software, o contenedor, que se ejecute en todos los tipos de dispositivos y sistemas operativos. Docker es una plataforma de software que empaqueta software en contenedores. Las imágenes de Docker son plantillas de solo lectura que contienen instrucciones para crear un contenedor. Una imagen de Docker es una instantánea o un esquema de las bibliotecas y dependencias necesarias dentro de un contenedor para que se ejecute una aplicación.
 # COMPLETAR 
 
 ![Imagen y contenedores](img/imagenContenedores.JPG)
@@ -24,7 +25,8 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
-![image](https://github.com/user-attachments/assets/0f0fd60f-e58b-426a-ba60-eab644f3f876)
+![image](https://github.com/user-attachments/assets/e62cbfb6-3fe6-4506-bd61-32c8f8d43e2a)
+
 
 
 # COMPLETAR
@@ -37,6 +39,7 @@ Este software fue lanzado oficialmente en octubre del 2004. El creador del softw
 # COMPLETAR 
 
 Descargar la imagen  **nginx** en la versión **alpine**
+![image](https://github.com/user-attachments/assets/79c4820c-f70e-41ee-8b42-0937fc003ff6)
 
 
 # COMPLETAR
@@ -46,6 +49,7 @@ Descargar la imagen  **nginx** en la versión **alpine**
 ```
 docker images
 ```
+![image](https://github.com/user-attachments/assets/63728214-ee65-44f1-89f7-251b49f9abd5)
 
 # COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
 
@@ -62,9 +66,16 @@ docker inspect <nombre imagen>:<tag>
 ```
 
 Inspeccionar la imagen hello-world 
+![image](https://github.com/user-attachments/assets/3251ca2a-26ee-4505-a295-aa200880dd5f)
+
 # COMPLETAR
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
+{
+        "Id": "sha256:d211f485f2dd1dee407a80973c8f129f00d54604d2c90732e8e320e5038a0348",
+        "RepoTags": [
+            "hello-world:latest"
+        ],
 # COMPLETAR
 
 ### Filtrar imágenes
@@ -82,6 +93,9 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
+![image](https://github.com/user-attachments/assets/f8548ed7-00c1-459f-9726-bae691406a37)
+
+
 # COMPLETAR
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
